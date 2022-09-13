@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-
+/* backgroud */
 body{
-    background-color: lightgray;
+    background-color: #F6F8F9;
+    font-family: 'Open Sans', sans-serif;;
 }
 
 header{
@@ -20,10 +23,11 @@ main{
     background-color: white;
     margin: auto;
     margin-top: 3%;
+    padding-bottom: 3em;
 
 
 }
-
+/* content */
 .nav,.content{
     padding-left: 3em;
 }
@@ -49,6 +53,9 @@ main{
 hr{
     margin-top: 1em;
     margin-bottom: 2em;
+    height: 2px;
+    background-color: #F6F8F9;
+    border: none;
 }
 
     .content{
@@ -57,6 +64,64 @@ hr{
         
     }
 
-    .content div{
-        margin-top: 1em;
+    .content li{
+        margin-bottom: 1em;
+
+    }
+
+    /* entities */
+    h2::before{
+        content: '/';
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    .cross{
+        border: 1px solid;
+        border-color: red;
+        padding: 2px;
+        color: red;
+        border-radius: 50%;
+    }
+
+    .check{
+        border: 1px solid;
+        border-color: greenyellow;
+        padding: 2px;
+        color: greenyellow;
+        border-radius: 50%;
+    }
+
+    /* colors */
+    .blue,.purple,.green,.orange,.pink,.yellow{
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+
+    }
+
+    .blue{
+        background-color: #47ADF1;
+    }
+
+    .purple{
+        background-color: #9C72E4;
+    }
+
+    .green{
+        background-color: #64C0A9;
+    }
+
+    .orange{
+        background-color: #F29E33;
+    }
+
+    .pink{
+        background-color: #D863A1;
+    }
+
+    .yellow{
+        background-color: #B0C926;
     }
