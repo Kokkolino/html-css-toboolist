@@ -1,5 +1,45 @@
 *{
     padding: 0;
     margin: 0;
-    
+
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    height: auto;
+    background-color: white;
+}
+
+main{
+    width: 65%;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+    margin-top: 3%;
+
+
+}
+
+.main-head{
+    padding-left: 3em;
+}
+
+.blue-button,.white-button{
+    display:inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 1.5em;
+
+}
+
+.blue-button{
+    background-color: #47ADF1;
+
+}
+
+.white-button{
+    background-color: whitesmoke;
 }
