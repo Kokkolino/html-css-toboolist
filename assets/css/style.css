@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 
 }
 
@@ -23,23 +24,39 @@ main{
 
 }
 
-.main-head{
+.nav,.content{
     padding-left: 3em;
 }
+
 
 .blue-button,.white-button{
     display:inline-block;
     border-radius: 10px;
     padding: 10px;
     margin-top: 1.5em;
-
+    
 }
 
 .blue-button{
     background-color: #47ADF1;
-
+    
 }
 
 .white-button{
     background-color: whitesmoke;
 }
+
+hr{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+    .content{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        
+    }
+
+    .content div{
+        margin-top: 1em;
+    }
